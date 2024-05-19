@@ -1,0 +1,2 @@
+document.querySelector("form").querySelectorAll("input").forEach(function(e){var t=document.createElement("label");t.setAttribute("class","field-label"),t.setAttribute("for",e.getAttribute("name")),t.textContent=e.getAttribute("name");var r=e.getAttribute("name").charAt(0).toUpperCase()+e.getAttribute("name").slice(1);e.setAttribute("placeholder",r),e.parentNode.appendChild(t)});
+//# sourceMappingURL=index.dc21b151.js.map
